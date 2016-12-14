@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  <!-- Import my custom index stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--google font-->
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel="stylesheet" type='text/css'>
+
+<title>Page Title</title>
+</head>
+<body>
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Lauren Costello</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Getintouch">Get in touch!</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Getintouch">Get in touch!</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<!--start of banner-->
+  <section id="home" class="home">
+    <h1>
+      <pre><code><xmp><html>Web Developer</html></xmp></code></pre>
+    </h1>
+  </section>
+  <!--end of bannner-->
+
+<!-- start of Section 1 -->
+  <section id="aboutme" class="container">
+    <div class="row">
+      <div class="col l6 m12 s12 padRight" id="aboutme">
+        <h2>About me</h2>
+        <p> I am an experienced primary school teacher that has recently transitioned into the technology industry. I am particularly interested in EdTech with my background in education. I have self studied HTML and CSS as well as taken part in courses for JavaScript and Ruby. I am looking for an opportunity to increase my understanding of coding and the processes involved with the development of software. I want to take the next step from learning the theory of development and put into practice the skill I have learned, as well as continuing to push myself to learn best practices and broaden my knowledge of more languages.</p>
+
+         <a target="_blank" href="CV/LaurenCostelloCV.pdf" class="waves-effect waves-teal btn-flat">View CV</a>
+        <!--<a class="waves-effect waves-teal btn-flat" <href=CV/LaurenCostelloCV.pdf> View CV</a>-->
+      </div>
+
+<div class="col l6 m12 s12 padLeft" id="skills">
+        <h2 id="skills">Skills </h2>
+        <h5>HTML/CSS</h5>
+        <div class="skill-bar">
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+        </div>
+      
+
+        <h5>Version control, APIs</h5>
+        <div class="skill-bar">
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+        </div>
+
+        <h5>Web Design and IA</h5>
+        <div class="skill-bar">
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+        </div>
+
+        <h5>Practical Agile</h5>
+        <div class="skill-bar">
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+        </div>
+
+        <h5>JavaScript </h5>
+        <div class="skill-bar">
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+        </div>
+
+        <h5>Node.js</h5>
+        <div class="skill-bar">
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+        </div>
+
+        <h5>Practical Testing </h5>
+        <div class="skill-bar">
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+        </div>
+
+         <h5>Ruby</h5>
+        <div class="skill-bar">
+          <div class="skill-rate-on"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+          <div class="skill-rate-off"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--end of section 1-->
+
+<!--Section 2-->
+ <h2 id="projects"> Projects</h2>
+  <section class="container">
+    <div class="images"> <!-- create a css hover rule-->
+        <img id="projectRPS" src="img/placeit.jpg"></a>
+       <img src="img/projectlauren.jpg">         
+       <img id="projectWC" src="img/weconverge.jpg"> 
+    </div>
+    <div id="projectDetail"></div>
+  </section>
+  <!--End of section 2-->
+
+<!--<div class="row">
+            <form class="col s12" method="POST" action="/contact">
+                <div class="row">
+                    <div class="input-field col s6">
+                    <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
+                    <label for="first_name">First Name</label>        
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                    <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
+                    <label for="last_name">Last Name</label>        
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                    <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
+                    <label for="email">Email</label>        
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                    <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
+                    <label for="message">Message</label>        
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                </button>
+            </form>-->
+  <!--Section 3-->
+  <section class="container">
+    <div id="Getintouch">
+      <div class="row">
+        <form class="col m10 offset-m1 s12" method="POST" action="/contact">
+          <h2 class="center-align">Get in touch!</h2>
+            <form class="col s12">
+              <div class="input-field col m6 s12">
+                <input id ="name" name="name" type="text" class="validate">
+                <label for="name">Your Name</label>
+              </div>
+              <div class="input-field col m6 s12">
+                <input id="email" name="email" type="email" class="validate" required>
+                <label for="email">Your Email Address</label>
+              </div>
+              <div class="input-field col m6 s12">
+                <input id="company" name="company" type="text" class="validate">
+                <label id="companytext" for="company">Your Company</label>
+              </div> 
+              <div class="input-field col s12">
+                <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                <label for="message">Your Message</label>
+              </div>
+              <div class="col m12">
+                <!--<p class="right-align"><button  class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>-->
+                <!--<a class="btn" onclick="Materialize.toast('Thank you for your message!', 4000,'',function(){alert('Your toast was dismissed')})">Send message</a>-->
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                </button>
+            </div>
+          
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of section 3-->
+
+  <!-- beginning of footer-->
+  <footer>
+    <a href="https://github.com/lcostello">
+      <img class="icon" src="img/GitHub.png" alt="Github">
+    </a>
+    <a href="https://twitter.com/lcostello89?lang=en">
+      <img class="icon" src="img/Twitter.png" alt="Twitter">
+    </a>
+    <a href="https://uk.linkedin.com/in/lauren-costello-875101103">
+      <img class="icon" src="img/LinkedIn.png" alt="LinkedIn">
+    </a>
+    <a href="https://medium.com/@llhcostello">
+      <img class="icon" src="img/Medium.png" alt="Medium">
+    </a>
+  </footer>
+  <!--end of footer-->
+
+
+<!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
